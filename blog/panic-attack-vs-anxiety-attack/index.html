@@ -43,7 +43,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/panic-attack-vs-anxiety-attack/#article"},
           "wordCount": "685",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can a panic attack last for hours?", "acceptedAnswer": {"@type": "Answer", "text": "The intense peak of a panic attack typically lasts 5-20 minutes. However, residual symptoms like fatigue, shakiness, and unease can linger for an hour or more. If you're experiencing hours of intense symptoms, you may be dealing with prolonged anxiety rather than a single panic attack."}}, {"@type": "Question", "name": "Can you have both panic attacks and anxiety attacks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many people with generalized anxiety disorder also experience panic attacks. Ongoing anxiety can lower the threshold for panic attacks, creating a cycle where worry about having a panic attack becomes its own source of anxiety."}}, {"@type": "Question", "name": "Should I go to the ER for a panic attack?", "acceptedAnswer": {"@type": "Answer", "text": "If you've never had a panic attack before, it's reasonable to seek emergency care since the symptoms can mimic a heart attack. Once you've been evaluated and know what panic attacks feel like for you, you can typically manage them at home. Always call 911 if you have actual chest pain risk factors."}}, {"@type": "Question", "name": "Are panic attacks dangerous?", "acceptedAnswer": {"@type": "Answer", "text": "Panic attacks feel terrifying but are not physically dangerous. They're your body's fight-or-flight system misfiring. No one has ever died from a panic attack itself, though the chronic stress of frequent attacks can affect overall health over time."}}]}
       ]
     }
@@ -145,6 +145,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -274,6 +279,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

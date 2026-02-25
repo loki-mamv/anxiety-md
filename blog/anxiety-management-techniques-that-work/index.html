@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/anxiety-management-techniques-that-work/#article"},
           "wordCount": "780",
           "lastReviewed": "2026-02-18",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "How long does it take for anxiety management techniques to work?", "acceptedAnswer": {"@type": "Answer", "text": "Physical techniques like vagal toning can produce immediate effects within minutes. Cognitive strategies like defusion and behavioral experiments typically show benefits within 2-4 weeks of consistent practice. The key is regular use \u2014 sporadic practice during crisis moments is less effective than daily skill-building."}}, {"@type": "Question", "name": "Can I manage anxiety without medication?", "acceptedAnswer": {"@type": "Answer", "text": "Many people manage anxiety effectively with therapy and self-help strategies alone, particularly for mild to moderate anxiety. However, moderate to severe anxiety, especially GAD or panic disorder, often responds best to a combination of therapy and medication. There's no virtue in avoiding medication if you need it."}}, {"@type": "Question", "name": "Why doesn't deep breathing always work for anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Deep breathing targets physical arousal but doesn't address the cognitive and behavioral components of anxiety. Also, some people hyperventilate during deep breathing attempts, which worsens symptoms. Extended exhale breathing (longer exhale than inhale) is more reliably effective because it specifically activates the parasympathetic nervous system."}}, {"@type": "Question", "name": "What's the difference between coping with anxiety and treating it?", "acceptedAnswer": {"@type": "Answer", "text": "Coping manages symptoms in the moment \u2014 getting through a panic attack, calming down before a presentation. Treatment addresses the underlying mechanisms \u2014 changing thought patterns, building distress tolerance, reducing avoidance. Good anxiety management includes both, but treatment aims for lasting change rather than temporary relief."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -273,6 +278,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

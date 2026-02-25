@@ -43,7 +43,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/generalized-anxiety-disorder-symptoms/#article"},
           "wordCount": "758",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Can GAD cause physical symptoms?", "acceptedAnswer": {"@type": "Answer", "text": "Absolutely. Muscle tension, headaches, stomach problems, fatigue, and sleep disruption are core features of GAD. Many people see their primary care doctor for physical complaints before learning anxiety is the underlying cause."}}, {"@type": "Question", "name": "Is GAD the same as being a worrier?", "acceptedAnswer": {"@type": "Answer", "text": "No. Being a worrier is a personality tendency. GAD is a clinical condition where worry is excessive, uncontrollable, and causes significant distress or functional impairment. The worry in GAD is disproportionate to actual risk and persists even when you recognize it's irrational."}}, {"@type": "Question", "name": "How is GAD diagnosed?", "acceptedAnswer": {"@type": "Answer", "text": "A mental health professional diagnoses GAD based on DSM-5 criteria: excessive worry about multiple topics for at least six months, difficulty controlling the worry, and at least three associated symptoms (restlessness, fatigue, concentration problems, irritability, muscle tension, sleep issues). The GAD-7 is a common screening tool."}}, {"@type": "Question", "name": "Can you have GAD and depression at the same time?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, and it's common. About 60% of people with GAD also experience major depressive disorder at some point. The conditions share risk factors and neurobiological pathways, and chronic anxiety can directly lead to depression through exhaustion and social withdrawal."}}]}
       ]
     }
@@ -145,6 +145,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -274,6 +279,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

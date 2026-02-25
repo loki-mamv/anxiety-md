@@ -43,7 +43,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/breathing-techniques-anxiety-attacks/#article"},
           "wordCount": "526",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "How quickly do breathing techniques work for anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Most breathing techniques begin reducing anxiety symptoms within 2-5 minutes. The 4-7-8 technique and physiological sighing have shown measurable reductions in cortisol and heart rate within the first few cycles, according to Stanford research published in Cell Reports Medicine (2023)."}}, {"@type": "Question", "name": "Can breathing exercises replace anxiety medication?", "acceptedAnswer": {"@type": "Answer", "text": "Breathing exercises are an effective complementary tool but should not replace prescribed medication without consulting your doctor. Research from the American Psychiatric Association shows breathing techniques work best as part of a comprehensive treatment plan that may include therapy and medication."}}, {"@type": "Question", "name": "Which breathing technique is best for panic attacks?", "acceptedAnswer": {"@type": "Answer", "text": "The physiological sigh (double inhale through the nose, long exhale through the mouth) is considered the fastest-acting technique for acute panic, according to a 2023 Stanford study. Box breathing (4-4-4-4) is also highly effective and used by Navy SEALs for acute stress."}}]}
       ]
     }
@@ -145,6 +145,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -313,6 +318,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

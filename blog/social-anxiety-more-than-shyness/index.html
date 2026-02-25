@@ -43,7 +43,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/social-anxiety-more-than-shyness/#article"},
           "wordCount": "769",
           "lastReviewed": "2026-02-14",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Is social anxiety a disability?", "acceptedAnswer": {"@type": "Answer", "text": "Social anxiety disorder can qualify as a disability under the ADA if it substantially limits major life activities like working, attending school, or maintaining relationships. Severity varies widely \u2014 some people manage with mild accommodations while others experience significant impairment."}}, {"@type": "Question", "name": "Can social anxiety go away on its own?", "acceptedAnswer": {"@type": "Answer", "text": "Spontaneous remission is uncommon without intervention. However, some people develop natural coping strategies over time, and life circumstances (supportive relationships, gradual exposure through work) can reduce symptoms. Formal treatment dramatically accelerates improvement."}}, {"@type": "Question", "name": "Is social anxiety genetic?", "acceptedAnswer": {"@type": "Answer", "text": "There's a significant hereditary component. Twin studies suggest genetics account for about 30-40% of the risk. Having a first-degree relative with social anxiety disorder increases your risk two to six times compared to the general population."}}, {"@type": "Question", "name": "What's the best medication for social anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "SSRIs like sertraline (Zoloft) and paroxetine (Paxil) have the strongest evidence base and are FDA-approved for SAD. Venlafaxine (an SNRI) is also effective. Beta-blockers like propranolol work well for performance-specific anxiety but don't address generalized social fear."}}, {"@type": "Question", "name": "Can you have social anxiety and still be extroverted?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Social anxiety is about fear, not preference. Some people with SAD genuinely want social connection and feel energized by people \u2014 they're just terrified of negative evaluation. Treatment can be especially rewarding for these individuals because the desire for connection is already there."}}]}
       ]
     }
@@ -145,6 +145,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -274,6 +279,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

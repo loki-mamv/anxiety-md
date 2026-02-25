@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/when-to-see-doctor-anxiety/#article"},
           "wordCount": "508",
           "lastReviewed": "2026-02-20",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "Should I see a doctor or therapist for anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Start with your primary care doctor, who can rule out medical causes (thyroid disorders, heart conditions, medication side effects) and refer you to a therapist or psychiatrist. For therapy, look for a provider trained in CBT, which is the gold-standard treatment for anxiety disorders per APA guidelines."}}, {"@type": "Question", "name": "What will a doctor do for anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Your doctor will typically ask about symptoms and duration, screen for anxiety disorders using validated tools like the GAD-7, check for medical conditions that mimic anxiety, discuss treatment options (therapy, medication, or both), and may refer you to a mental health specialist. Most appointments take 20-30 minutes."}}, {"@type": "Question", "name": "Can anxiety go away without treatment?", "acceptedAnswer": {"@type": "Answer", "text": "Mild, situational anxiety often resolves on its own. However, clinical anxiety disorders rarely improve without treatment and tend to worsen over time, according to the NIMH. The good news: anxiety disorders are among the most treatable mental health conditions, with 60-90% of patients improving significantly with proper care."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -335,6 +340,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>

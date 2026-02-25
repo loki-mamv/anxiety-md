@@ -42,7 +42,7 @@
           "mainEntityOfPage": {"@id": "https://anxiety.md/blog/anxiety-vs-stress-difference/#article"},
           "wordCount": "477",
           "lastReviewed": "2026-02-19",
-          "reviewedBy": {"@type": "Organization", "name": "thrive.md Clinical Advisory Team"}
+          "reviewedBy": {"@type": "Person", "name": "Dr. Agustin Arrieta", "jobTitle": "MD"}
         },{"@type":"FAQPage","mainEntity":[{"@type": "Question", "name": "What is the main difference between stress and anxiety?", "acceptedAnswer": {"@type": "Answer", "text": "Stress is a response to an external trigger (a deadline, conflict, or life event) and typically resolves when the trigger is removed. Anxiety persists even without a clear external cause and involves excessive, ongoing worry that interferes with daily functioning, according to the American Psychological Association."}}, {"@type": "Question", "name": "When does stress become an anxiety disorder?", "acceptedAnswer": {"@type": "Answer", "text": "Stress may indicate an anxiety disorder when worry persists for 6+ months, feels disproportionate to the situation, you can't control the worrying, it interferes with work or relationships, and physical symptoms (insomnia, muscle tension, GI issues) are ongoing. The NIMH recommends evaluation if symptoms significantly impair daily life."}}, {"@type": "Question", "name": "Can stress cause anxiety disorders?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Chronic, unmanaged stress is a significant risk factor for developing anxiety disorders. Prolonged stress alters brain chemistry, particularly serotonin and cortisol pathways, which can trigger generalized anxiety disorder, panic disorder, or other anxiety conditions, per research published in the journal Dialogues in Clinical Neuroscience."}}]}
       ]
     }
@@ -144,6 +144,11 @@
             .article-header h1 { font-size: 1.75rem; }
             .related-grid { grid-template-columns: 1fr; }
         }
+    
+        /* Medical Reviewer Badge */
+        .medical-reviewer { display: flex; align-items: center; gap: 0.4rem; margin-top: 0.75rem; padding: 0.5rem 0.75rem; background: #f0fdfa; border: 1px solid #ccfbf1; border-radius: 6px; font-size: 0.8rem; color: #0f766e; width: fit-content; }
+        .medical-reviewer svg { flex-shrink: 0; }
+        .medical-disclaimer { font-size: 0.75rem; color: var(--text-muted, #94a3b8); margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border, #e2e8f0); }
     </style>
 
     <script type="application/ld+json">
@@ -325,6 +330,7 @@
     <footer class="site-footer">
         <div class="container-wide">
             <div class="footer-links">
+                <a href="/about.html">About &amp; Editorial Policy</a>
                 <a href="https://thrive.md">thrive.md</a>
                 <a href="https://anxiety.md">anxiety.md</a>
                 <a href="https://depression.md">depression.md</a>
